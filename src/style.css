@@ -1,0 +1,110 @@
+.container{
+    font-size: 5em;
+    font-weight: 1000;
+    text-shadow: 2px 2px 5px rgb(174, 0, 255);
+    text-align: center;
+}
+
+
+
+.add{
+    margin-left: 50px;
+    border: 2px solid black;
+    font-size: 2em;
+    font-weight: 1000;
+    color: blue;
+    text-align: center;
+    width:30%;
+    height: 400px;
+}
+
+.button{
+    background-color: blueviolet;
+    color: white;
+}
+
+.view{
+    
+    margin-top: -400px;
+    margin-left: 550px;
+    border: 2px solid black;
+    font-size: 2em;
+    font-weight: 1000;
+    color: blue;
+    text-align: center;
+    width:60%;
+}
+
+.thead{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(122, 74, 167);
+}
+
+
+
+.tr th{
+    text-align: center;
+}
+.table{
+    width:100%;
+    padding: 20px 4%;
+}
+
+.tbody{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.tr td{
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .main{
+        width: 100%;
+    }
+    .container{
+        font-size: 200%;
+        width:100%;
+        font-weight: 1000;
+        text-shadow: 4px 4px 15px rgb(255, 0, 128);
+        margin: 10px auto ;
+    }
+    .add{
+        margin:10%;
+        border: 2px solid black;
+        
+        border-radius: 50px;
+        box-sizing: border-box;
+        font-size: 2em;
+        font-weight: 1000;
+        color: blue;
+        text-align: center;
+        width:80%;
+        height: 400px;
+    }
+
+    .view{
+    
+        margin-top: 0px;
+        margin-left: 0px;
+        border: 2px solid black;
+        font-size: 2em;
+        font-weight: 1000;
+        color: blue;
+        text-align: center;
+        width:100%;
+    }
+
+    .thead{
+        font-size: 70%;
+        color: rgb(122, 74, 167);
+        background-color: white;
+    }
+
+    .tbody{
+        color: rgb(27, 2, 2);
+        font-size: 50%;
+    }
+  }
